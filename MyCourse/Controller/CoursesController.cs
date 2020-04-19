@@ -10,12 +10,12 @@ namespace MyCourse.Controller
     {
         public IActionResult Index()
         {
-            return Content("Response from Details/Index");
+            return Content("Response from Courses/Index");
         }
 
-        public IActionResult Details(string id)
+        public IActionResult Detail(string id)
         {
-            return Content($"Response from Courses/Details with id = {id}" );
+            return Content($"Response from Courses/Detail with id = {id}" );
         }
     }
 }
